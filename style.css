@@ -21,13 +21,21 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
+
+    background-color: #999999;
+
     background-color: #00204A;
+
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
+
+    background-color: #424a50;
+
     background-color: #4B6982;
+
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,11 +45,19 @@ body {
 
 .profile {
     width: 100%;
+
+    border-bottom: 2px solid #eeeeee;
+
     border-bottom: 2px solid #1B2631;
+
 }
 
 .profile .profile-image {
     width: 100%;
+
+    border-radius: 100%;
+
+
 }
 
 .name {
@@ -49,6 +65,15 @@ body {
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+}
+
+.profession {
+    color: #eeeeee;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
     text-align: center;
     font-weight: bold;
     padding: 1rem 0;
@@ -62,10 +87,15 @@ body {
     letter-spacing: 2px;
     font-weight: bold;
     padding-bottom: 1rem;
+
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
+
+    color: #eeeeee;
+    font-size: 20px;
+
     color: #FDB44B;
     font-size: 20px;
     letter-spacing: 2px;
@@ -74,6 +104,7 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
+
 }
 
 .contact-info ul {
@@ -83,18 +114,26 @@ body {
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
+
+    color: #eeeeee;
+
     display: flex;
     align-items: center;
     color: #d6dbdfaf;
     letter-spacing: 1px;
     font-size: 18px;
+
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
+
+    color: #eeeeee;
+
     color: #2E86C1;
+
 }
 
 .skills ul {
@@ -102,6 +141,11 @@ body {
 }
 .skills ul li p {
     padding: .4rem 0;
+
+    color: #eeeeee;
+}
+
+
     color: #d6dbdfaf;
     font-size: 18px;
     letter-spacing: 1px;
@@ -128,11 +172,15 @@ body {
 }
 
 
+
 .right-section-contents {
     padding: 2rem 2rem;
 }
 
 .right-title {
+
+    color: #eeeeee;
+
     color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
@@ -142,6 +190,7 @@ body {
     align-items: center;
     padding: 2rem 0;
     position: relative;
+
 }
 
 .gap {
@@ -149,9 +198,13 @@ body {
 }
 .about-me-contents {
     font-size: 18px;
+
+    color: #eeeeee;
+
     letter-spacing: 1px;
     line-height: 2rem;
     color: #F1F8FD;
+
 }
 
 .experience-contents,
@@ -168,35 +221,47 @@ body {
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+
+
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #FDB44B;
     padding-bottom: .4rem;
+
 }
 
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
     font-size: 18px;
+
     letter-spacing: 1px;
     line-height: 2rem;
+
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
+
+
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #FDB44B;
     padding-bottom: .4rem;
+
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
+
+    padding-left: 5px;
+}
+
     letter-spacing: 1px;
     line-height: 1.5rem;
     border-left: 3px solid #a5a3a3;
@@ -300,3 +365,4 @@ Security
 Status
 Docs
 C
+
